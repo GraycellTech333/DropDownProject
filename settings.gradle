@@ -1,0 +1,2 @@
+include ':app', ':droplistlibrary'
+rootProject.name='DropDownListProject'
