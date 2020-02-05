@@ -2,21 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:background="@color/colorGray">
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_margin="06dp"
+        android:textSize="17dp"
         android:textColor="#000"
-        android:id="@+id/text_data"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="01dp"
+        android:layout_margin="20dp"
         android:visibility="gone"
-        android:background="@color/colorBlack"/>
+        android:id="@+id/text_data"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/spinner"
+        android:background="@color/colorGray"/>
+
 
 </LinearLayout>

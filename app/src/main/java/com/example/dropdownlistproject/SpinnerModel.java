@@ -9,5 +9,5 @@ public class SpinnerModel {
         this.title = title;
     }
 
-    private String title;
+    public String title;
 }

@@ -5,12 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#987"
+    android:orientation="vertical"
     tools:context=".HomeActivity">
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:id="@+id/spinner"
+        android:visibility="gone"
         android:background="@color/colorGray"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleview"/>
 
 </LinearLayout>
